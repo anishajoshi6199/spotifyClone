@@ -1,0 +1,165 @@
+.Icon {
+  background-color: red;
+  position: relative;
+  width: 4rem;
+}
+.btn {
+  border: 1px solid #b2aeae;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: none;
+  position: absolute;
+  top: 0.6rem;
+  left: 3.3rem;
+}
+.btn:hover {
+  border: 1.8px solid #fff;
+}
+.btn > .PlayBtn {
+  color: #b2aeae;
+  position: absolute;
+  top: 0.3rem;
+  left: 0.3rem;
+  font-size: 1.5rem;
+  background: none;
+  cursor: pointer;
+}
+.btn > .PlayBtn:hover {
+  color: #fff;
+}
+.ListBox {
+  border: 0.4px solid #6e6d6d;
+  background: none;
+  height: 3.5rem;
+  width: 90rem;
+  cursor: pointer;
+  margin-top: 1.3rem;
+  margin-left: 7rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+  position: relative;
+}
+.ListBox:hover {
+  background-color: #030725;
+  color: #fff;
+  border: 1.5px solid #fff;
+}
+.musicImg {
+  border: #6e6d6d solid 0.1px;
+  width: 4.5rem;
+  height: 3.4rem;
+  padding-left: 0.2px;
+  border-radius: 5px;
+}
+.musicImg:hover {
+    border: #fff solid 0.1px; 
+}
+.musicName {
+  color: #dad7d7;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  background: none;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  left: 10rem;
+}
+.singer {
+  color: #b2aeae;
+  font-size: 14px;
+  background: none;
+  font-weight: 200;
+  position: absolute;
+  left: 25rem;
+  letter-spacing: 1px;
+}
+.views {
+  color: #c3c3c3;
+  background: none;
+  position: absolute;
+  left: 43rem;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.timer {
+  color: #c3c3c3;
+  position: absolute;
+  left: 56rem;
+  background: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.BTN {
+  border: 1px solid #b2aeae;
+  border-radius: 50%;
+  width: 1.9rem;
+  height: 1.9rem;
+  cursor: pointer;
+  position: absolute;
+  right: 15rem;
+}
+.BTN:hover {
+  border: 1.9px solid #fff;
+}
+.playBTN:hover {
+  color: #fff;
+}
+.playBTN {
+  background: none;
+  color: #b2aeae;
+  font-size: 20px;
+  position: absolute;
+  left: 4px;
+  top: 5px;
+}
+.BTN1 {
+  border: 1px solid #b2aeae;
+  border-radius: 50%;
+  width: 1.9rem;
+  height: 1.9rem;
+  position: absolute;
+  right: 10rem;
+}
+.BTN1:hover {
+  border: 1.9px solid #fff;
+}
+.BTN2 {
+  border: 1px solid #b2aeae;
+  border-radius: 50%;
+  width: 1.9rem;
+  height: 1.9rem;
+  position: absolute;
+  right: 5rem;
+}
+.BTN2:hover {
+  border: 1.9px solid #fff;
+}
+.playBTN1 {
+  background: none;
+  color: #b2aeae;
+  font-size: 18px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  cursor: pointer;
+}
+.playBTN1:hover {
+  color: #fff;
+}
+.playBTN2 {
+  background: none;
+  color: #b2aeae;
+  font-size: 18px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  cursor: pointer;
+}
+.playBTN2:hover {
+  color: #fff;
+}

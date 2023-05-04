@@ -1,0 +1,153 @@
+.heroImg {
+    position: relative;
+    top: 1.5rem;
+    left: 2rem;
+}
+.heroImg > img {
+    height: 43vh;
+    width: 170vh;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+
+/* heroTxt */
+.heroTxt {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    background: none;
+}
+.heroTxtOne {
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 400;
+    background: none;
+    letter-spacing: 1px;
+}
+.heroTxtTwo {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+    background: none;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.heroTxtBtn {
+    background-color: #0c0c0c;
+    color: #fff;
+    padding: 10px 20px 10px 15px;
+    font-size: 13px;
+    margin-left: 13px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.heroTxtBtn:Hover {
+    background-color: #1a1919;
+}
+
+
+
+
+/* Button */
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: none;
+}
+.playBtn {
+    border: none;
+    background: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: rgb(91, 14, 91);
+    cursor: pointer;
+}
+.playBtn:hover {
+    background: rgb(147, 53, 147);
+    
+}
+.btnIcon {
+    color: #fff;
+    background: none;
+    font-size: 25px;
+    position: absolute;
+    left: 1.3rem;
+    top: 1.2rem;
+
+}
+.shareBtn {
+    border: 1px solid #0c0c0c;
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: #f5e2e2;
+    cursor: pointer;
+}
+.shareBtn:hover {
+    background-color: #fff;
+}
+.shareIcon {
+    color: #000;
+    background: none;
+    font-size: 20.5px;
+    position: absolute;
+    top: 20px;
+    left: 5.1rem;   
+}
+.downloadBtn {
+    border: 1px solid #0c0c0c;
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: #f5e2e2;
+    cursor: pointer;
+}
+.downloadBtn:hover {
+    background-color: #fff;
+}
+.downloadIcon {
+    color: #000;
+    background: none;
+    font-size: 23px;
+    position: absolute;
+    top: 20px;
+    left: 8.2rem;  
+}
+
+
+
+/* profile */
+.profileIcon {
+    color: #f5e2e2;
+    font-size: 30px;
+    position: absolute;
+    top: 21rem;
+    right: 18rem;
+    background: none;
+    cursor: pointer;
+}
+.profileIcon:hover {
+    color: #fff;
+}
+.profileTxt {
+    color: #f5e2e2;
+    font-size: 1.1rem;
+    font-weight: 400;
+    position: absolute;
+    top: 21.3rem;
+    right: 10.5rem;
+    background: none;
+}
+

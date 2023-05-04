@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #12152e;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+}
+.navLogo {
+    width: 10rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    background: none;
+}
+.menuList {
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+    position: relative;
+}
+.menuList > li{
+    margin-left: 4rem;
+    list-style: none;
+    padding-bottom: 2rem;
+    text-align: left;
+    cursor: pointer;
+    color: #dedada;
+    letter-spacing: 1px;
+}
+.menuList > li:hover {
+    color: #fff;
+}
+.menuIcon {
+    margin-right: 1.2rem;
+    position: absolute;
+    left: 1.5rem;
+    margin-top: 5px;
+}
+.ourPlaylist {
+    color: #7c7a7a;
+    margin-left: 1.5rem;
+    list-style: none;
+    margin-top: 0.4rem;
+    margin-bottom: 2rem;
+}
+.ourPlaylist > li:hover{
+    color: #ffff;
+}
+.ourPlaylist > li {
+   margin-top: 1.5rem;
+   cursor: pointer;
+   margin-left: 2.5rem;
+}
+.playlist {
+    color: #dedede;
+}
+.playlist :hover {
+    color: #fff;
+}

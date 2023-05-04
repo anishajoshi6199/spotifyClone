@@ -1,0 +1,22 @@
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.thumb{
+    width: 20px;
+    height: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, 0.735);
+    z-index: 3;
+    background-color: rgb(225, 225, 225);
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    pointer-events: none;
+    user-select: none;
+}

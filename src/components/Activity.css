@@ -1,0 +1,42 @@
+.Activity {
+    display: grid;
+    grid-template-columns: 900px 500px 100px 100px;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.appBtn {
+    color: #c5bfbf;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.navTxt {
+    color: #fff;
+    width: 23rem;
+    height: 1.7rem;
+    border: 1.5px solid #7c7a7a;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+.bellBtn {
+    font-size: 22px;
+    cursor: pointer;
+    color: #c5bfbf;
+}
+.profile{
+    cursor: pointer;
+    font-size: 22px;
+    color: #c5c5c5;
+}
+
+/* hover */
+
+.appBtn:hover{
+    color: #fff
+}
+.bellBtn:hover{
+    color: #fff
+}
+.profile:hover{
+    color: #fff
+}
